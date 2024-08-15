@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*Url nos pide el de la imagen que queremos poner, y colocamos la ruta de esa imagen dentro del parentesis*/
+    background-image: url(Camp\ Nou.jpg);
+    background-size: cover;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    margin: 10px;
+}
+
+#titulo{
+    color: #edbb00;
+    text-align: center;
+    margin: 100px;
+    font-size: 70px;
+}
+
+#subtitulo{
+    color: #edbb00;
+    text-align: center;
+    margin: 80px;
+    font-size: 20px;
+}
+
+.row{
+    margin: 50px;
+}
+
+h2{
+    font-size: 25px;  
+    color: #edbb00;
+    margin: 5px;
+}
+
+h3{
+    font-size: 20px;
+    color: #edbb00;
+    margin: 5px;
+}
+
+h4{
+    font-size: 15px;
+    color: #edbb00;
+    margin: 5px;
+}
+
+.footer-container-fluid{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    color: #edbb00;
+}
+
+.container{
+    font-size: 25px;
+    text-align: center;
+}
+
+.mb-3{
+    color: #edbb00;
+}
